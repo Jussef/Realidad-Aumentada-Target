@@ -1,0 +1,15 @@
+{
+    "name": "RA",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "cli-color": "^2.0.0",
+      "moment": "^2.29.1",
+      "zip-a-folder": "^0.0.9"
+    },
+    "scripts": {
+      "zip": "node ./scripts/creajs.js && node ./scripts/empaquetado.js",
+      "prod": "netlify deploy --prod -d public"
+    }
+  }
+  
